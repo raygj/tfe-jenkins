@@ -1,5 +1,7 @@
 _This Terraform code can be used to provision and EC2 instance to run Jenkins or you can use a Jenkins Docker instance_
 
+In a Terraform Cloud or Enterprise environment you could create a repo for this code, move variables to the Workspace and execute from there rather than using Terraform OSS. With that approach a Jenkins server is a "click away" for demos or sandbox environments.
+
 # Provision an EC2 instance in AWS
 This Terraform configuration provisions an EC2 instance in AWS.
 - This branch adds the capability to set a `user_data` variable. 
