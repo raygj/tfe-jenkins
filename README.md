@@ -1,6 +1,6 @@
 # Terraform Enterprise and Jenkins Content
 
-*deploy_jenkins* contains walkthrough content for Docker and traditional Jenkins install
+*deploy_jenkins* contains walkthrough content for Docker and traditional Jenkins install, as well Bash script that can be called by Terraform to automate Jenkins install
 
 *job-files* contains sample Jenkins job files
 
