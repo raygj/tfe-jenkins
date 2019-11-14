@@ -2,7 +2,7 @@ provider "aws" {
   region = "${var.aws_region}"
 }
 
-resource "aws_instance" "jray-jenkins" {
+resource "aws_instance" "jenkins-demo" {
   count         = "${var.count}"
   ami           = "${var.ami_id}"
   instance_type = "${var.instance_type}"

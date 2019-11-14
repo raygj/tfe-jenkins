@@ -20,15 +20,15 @@ variable "instance_type" {
 
 variable "name" {
   description = "name to pass to Name tag"
-  default     = "jray-ptfe-jenkins"
+  default     = ""
 }
 
 variable "owner" {
-  description = "jray@hashicorp.com"
+  description = ""
 }
 
 variable "key_name" {
-  description = "jray"
+  description = ""
 }
 
 variable "ttl" {
@@ -45,10 +45,10 @@ variable "user_data" {
 
 variable subnet_id {
   description = "default subnet for EC2 instance within specified VPC"
-  default     = "subnet-055c621fd6b3df116"
+  default     = ""
 }
 
 variable "security_group_id" {
   type    = "list"
-  default = ["sg-08dc78d1f405f6f4d"]
+  default = [""]
 }
